@@ -1,3 +1,4 @@
-print("Hello Git")
-print("cat first commit")
-print("cat second commit")
+weight = float(input())
+height = float(input())/100
+
+print(f"BMI: {weight/height**2}")
